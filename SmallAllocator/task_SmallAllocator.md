@@ -47,4 +47,4 @@ A2.Free(A2_P1);
 A2.Free(A2_P2);
 ```
 
-[Ссылка на задание:](https://stepik.org/lesson/12574/step/7?thread=solutions&unit=3002)
+[Ссылка на задание](https://stepik.org/lesson/12574/step/7?thread=solutions&unit=3002)
