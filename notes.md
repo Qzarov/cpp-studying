@@ -303,3 +303,33 @@ tv.tv_usec = 0;
 setsockopt(s, SOL_SOCKET, opt, (char *)&tv, sizeof(tv));
 ```
 В качестве ```opt``` используется ```RCVTIMEO``` или ```SNDTIMEO```.
+
+### Пример
+
+Пример программ клиента и сервера добавлен в папку "../TCP_ClientServer" (нужно протестировать)
+
+Видео по примеру с комментариями доступно по [ссылке](https://stepik.org/lesson/12576/step/12?unit=3004).
+
+### Литература
+
+Немного о сокетах:
+- https://en.wikipedia.org/wiki/Berkeley_sockets
+
+И о протоколах:
+
+- https://en.wikipedia.org/wiki/Internet_Protocol
+
+- https://en.wikipedia.org/wiki/IPv4
+
+- https://en.wikipedia.org/wiki/IPv6
+
+- https://en.wikipedia.org/wiki/Transmission_Control_Protocol
+- https://en.wikipedia.org/wiki/User_Datagram_Protocol
+
+Тем, кому интересна более серьезная литература:
+- https://tools.ietf.org/html/rfc791
+- https://tools.ietf.org/html/rfc3513
+- https://en.wikipedia.org/wiki/Transmission_Control_Protocol#RFC
+- https://en.wikipedia.org/wiki/User_Datagram_Protocol#RFC_references
+
+
